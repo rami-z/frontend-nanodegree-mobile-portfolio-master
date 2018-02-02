@@ -1,4 +1,27 @@
-# Change log
+# Website Optimization Project
+Optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
+
+## Getting started
+To run website locally you need to perform steps:
++ Install Python in your PC.
++ Run CMD inside project folder
+```
+cd */project-path/
+```
++ write below code to start local server
+++ Python 2.7.*
+```
+python -m SimpleHTTPServer 8000
+```
+++ Python 3.*
+```
+Python -m http.server
+```
++ Open any web browser such as (google chrome,firefox ...etc) and write 
+```
+http://127.0.0.1/
+```
+## Change log
 ###Index page
 + remove google font
 + minify print.css and add print media 
